@@ -37,11 +37,11 @@ class CWPSiteConfigExtension extends DataExtension
     );
 
     private static $has_one = array(
-        'Logo' => Image::class,
-        'LogoRetina' => Image::class,
-        'FooterLogo' => Image::class,
-        'FooterLogoRetina' => Image::class,
-        'FooterLogoSecondary' => Image::class,
+        'Logo' => File::class,
+        'LogoRetina' => File::class,
+        'FooterLogo' => File::class,
+        'FooterLogoRetina' => File::class,
+        'FooterLogoSecondary' => File::class,
         'FavIcon' => File::class,
         'AppleTouchIcon144' => File::class,
         'AppleTouchIcon114' => File::class,
